@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <span>holaaa</span>
+    <span>holaaa222222</span>
   </div>
 </template>
 <script>
