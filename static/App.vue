@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <span>holaaa233333333 produccion</span>
+    <span>holaaa233333333 develop</span>
     <span>{{info}}</span>
   </div>
 </template>
