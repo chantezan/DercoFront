@@ -38,7 +38,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "NODE_ENV=production node_modules/webpack/bin/webpack.js --mode production"
+    "build": "NODE_ENV=production url_lamda=$url_lamda node_modules/webpack/bin/webpack.js --mode production"
   },
   "author": "",
   "license": "ISC"
