@@ -15,7 +15,7 @@ export default {
   },
   mounted () {
     axios
-      .get('https://bs8e9e1s09.execute-api.us-east-1.amazonaws.com/pruebaDerco5')
+      .get(process.env.url_lamda)
       .then(response => (this.info = response))
   }
 };
