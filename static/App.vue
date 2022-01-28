@@ -15,7 +15,7 @@ export default {
   },
   mounted () {
     axios
-      .get('https://api.coindesk.com/v1/bpi/currentprice.json')
+      .get('https://bs8e9e1s09.execute-api.us-east-1.amazonaws.com/pruebaDerco5')
       .then(response => (this.info = response))
   }
 };
