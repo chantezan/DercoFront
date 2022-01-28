@@ -1,12 +1,23 @@
 <template>
   <div id="app">
-    <span>holaaa222222</span>
+    <span>holaaa233333333</span>
+    <span>{{info}}</span>
   </div>
 </template>
 <script>
-
+import axios from "axios";
 export default {
-  name: "Base"
+  name: "Base",
+  data() {
+    return {
+      info: []
+    }
+  }
+  mounted () {
+    axios
+      .get('https://api.coindesk.com/v1/bpi/currentprice.json')
+      .then(response => (this.info = response))
+  }
 };
 </script>
 

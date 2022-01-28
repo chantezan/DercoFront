@@ -4,6 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "dependencies": {
+    "axios": "0.25.0",
     "@aws-amplify/ui-vue": "^0.2.13",
     "aws-amplify": "^3.0.23",
     "vue": "^2.6.14"
