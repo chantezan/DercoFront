@@ -14,6 +14,7 @@ export default {
     }
   },
   mounted () {
+  console.log("url lamndaaaa",process.env.url_lamda)
     axios
       .get(process.env.url_lamda)
       .then(response => (this.info = response))
