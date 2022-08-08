@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import Cripto from './Cripto'
+import Cripto from './BaseCripto'
 // Creamos una instancia de la aplicación Vue
 const app = createApp({
   // Elemento html donde se va ha renderizar el contenido
