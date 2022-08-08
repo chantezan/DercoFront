@@ -5,7 +5,7 @@ module.exports = {
     // La ruta donde estará disponible el bundle de los archivos estáticos 
   publicPath: "http://0.0.0.0:8080/",
     // Directorio donde se creará el bundle de archivos estáticos
-    outputDir: './static/',
+    outputDir: './dist/',
     // Estable que se compile en tiempo de ejecución.
   runtimeCompiler: true,
 

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <span>holaaa233333333 memeeeeeeeeeeeee</span>
+    <span>d memeeeeeeeeeeeee</span>
     <span>{{info}}</span>
   </div>
 </template>
