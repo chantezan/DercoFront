@@ -13,7 +13,7 @@ module.exports = {
   pages: {
     main: {
         // entry for the page
-        entry: 'src/main.js',
+        entry: 'static/index.js',
         },
       
   },
