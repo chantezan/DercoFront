@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div>
     <span>d memeeeeeeeeeeeee</span>
     <span>{{info}}</span>
   </div>
