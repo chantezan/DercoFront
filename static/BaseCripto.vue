@@ -7,7 +7,7 @@
 <script>
 import axios from "axios";
 export default {
-  name: "Base",
+  name: "BaseCripto",
   data() {
     return {
       info: []
