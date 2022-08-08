@@ -15,6 +15,10 @@ module.exports = {
         // entry for the page
         entry: 'static/main.js',
         },
+    test_main: {
+        // entry for the page
+        entry: 'static/main.js',
+        },
       
   },
 
@@ -31,7 +35,7 @@ module.exports = {
 
     config.resolve.alias
     .set('__STATIC__', 'static')
-
+    config.output.filename("js/[name].js");
     config.devServer
     .host('0.0.0.0')
     .port(8080)
